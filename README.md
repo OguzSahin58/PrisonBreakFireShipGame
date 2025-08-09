@@ -45,23 +45,21 @@ make
 ./PrisonBreakFireShipGame
 ```
 
-Project Files
-src/
-    Bullet.cpp / Bullet.h      - Bullet movement logic
-    Enemy.cpp / Enemy.h        - Enemy spawn and movement
-    Controller.cpp / .h        - Main game logic
-    main.cpp                   - Program start
+## 📂 Project Structure
 
-qml/
-    main.qml                   - Game layout
-    Bullet.qml                 - Bullet visuals
-    Enemy.qml                  - Enemy visuals
+```
+├── Bullet.cpp/h + Bullet.qml      # Bullet movement + visuals
+├── Enemy.cpp/h + Enemy.qml        # Random enemy logic and sprite
+├── Controller.cpp/h               # Main game logic and backend
+├── main.qml + main.cpp            # App entry point
+├── CMakeLists.txt                 # Build config
+├── assets/                        # All PNGs, GIFs and pixel art
+└── README.md                      # You’re here!
+```
 
-assets/                        - Images, sprites, and GIFs
-CMakeLists.txt                 
-README.md
+---
+## 🧠 Key Concepts You’ll Learn
 
-What You’ll Learn
 - How to connect C++ backend with QML frontend
 - How to use signals and slots in Qt
 - How to create animations and simple game loops
