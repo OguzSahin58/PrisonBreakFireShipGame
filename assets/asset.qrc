@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/enemy">
+        <file>enemy1</file>
+        <file>enemy2</file>
+        <file>enemy3</file>
+        <file>enemy4</file>
+        <file>enemy5</file>
+    </qresource>
+    <qresource prefix="/player">
+        <file>scofield.png</file>
+        <file>thruster.gif</file>
+    </qresource>
+    <qresource prefix="/bullet">
+        <file>bullet.png</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file>stellar.otf</file>
+    </qresource>
+</RCC>
